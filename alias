@@ -1,0 +1,8 @@
+# git alias
+alias git-amend="git co -a --amend --no-edit"
+alias git-amend-push="git co -a --amend --no-edit;git push -f"
+alias git-sync-upstream="git ch master;git fetch upstream;git merge upstream/master; git push; git checkout -; echo \"Update upstream completed\""
+alias git-reset="git checkout master"
+alias apply-gitignore="git rm -r --cached .; git add ."
+alias co="git co -a -m"
+alias br="git br"
